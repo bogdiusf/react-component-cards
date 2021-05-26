@@ -1,0 +1,48 @@
+.infoWrapper{
+    display: grid;
+    grid-template-areas: '1 1 1 1';
+    width: fit-content;
+    border: 2px solid black;
+    text-align: center;
+    /* align-items: flex-end; */
+    place-items: center;
+}
+
+.infoWrapper > div > h1{
+    /* margin-right: 150px; */
+    padding: 20px;
+}
+
+.inputWrapper {
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.labelWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    /* border: 1px solid black */
+}
+
+.cardsWrapper{
+    position:absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate(-10%,30%);
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: fit-content;
+}
+
+.card{
+    border: 1px solid black;
+    padding: 40px;
+}
