@@ -8,7 +8,7 @@ export default function Main() {
     // declaring states used for storing needed data
     const [info, setInfo] = useState([]);
     const [sw, setSw] = useState(false);
-    const [id, setId] = useState(generate)
+    const [id, setId] = useState()
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
     const [age, setAge] = useState('');

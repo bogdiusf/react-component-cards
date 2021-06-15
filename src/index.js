@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom'
-import Main from './components/Main'
+import App from './Homework-june/App'
 
 ReactDOM.render(
-    <Main />, document.getElementById('root')
+    <App />, document.getElementById('root')
 )
